@@ -43,16 +43,22 @@ body {
   background-color: white;
 }
 
-div.mine, div.mine:hover {
+.bomb{
   background: no-repeat center/60% url("images/bomb.svg") crimson;
 }
+/* div.mine, div.mine:hover {
+  background: no-repeat center/60% url("images/bomb.svg") crimson;
+} */
 
 div.hidden {
-  background: #eee;
+  background: #345253;
+  background: rgba(106, 212, 212, 0.4);
+
 }
 
 div.hidden:hover {
-  background: #ccc;
+  background: 6fe88e;
+  border-color: rgb(63, 200, 63);
 }
 
 div.marked, div.marked:hover {
